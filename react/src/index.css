@@ -156,6 +156,7 @@ button {
   border-color: var(--white);
 }
 
+/* TODO: rename to danger maybe */
 .btn-delete {
   border-color: var(--red);
   background-color: var(--red);

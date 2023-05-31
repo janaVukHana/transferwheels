@@ -1,6 +1,5 @@
 import './NotFound.css'
-import Button from '@mui/material/Button';
-import Stack from '@mui/material/Stack';
+import { Link } from 'react-router-dom'
 
 export default function NotFound() {
     return (
@@ -9,7 +8,7 @@ export default function NotFound() {
                 404 - Page Not Found
             </div>
             <div>
-                <Button variant="contained">Vrati se početnu stranicu</Button>
+                <Link to="/" className='btn btn-delete'>Vrati se početnu stranicu</Link>
             </div>
         </main>
     )
