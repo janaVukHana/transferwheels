@@ -1,0 +1,27 @@
+.AboutUs {
+    background-color: #1A374D;
+    text-align: center;
+}
+
+.AboutUs hr {
+    width: 100px;
+    margin: 1rem auto;
+}
+
+.AboutUs .iconContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: lightblue;
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+  
+  .AboutUs .iconContainer .MuiSvgIcon-root {
+    font-size: 24px;
+    color: white;
+    color: var(--blue);
+  }

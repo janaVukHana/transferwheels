@@ -1,0 +1,20 @@
+.Contact {
+    background-color: var(--blue);
+}
+
+.Contact .iconContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: lightblue;
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+  
+  .Contact .iconContainer .MuiSvgIcon-root {
+    font-size: 24px;
+    color: var(--blue);
+  }

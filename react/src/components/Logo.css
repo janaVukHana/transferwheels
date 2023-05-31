@@ -1,0 +1,15 @@
+.Logo a {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: transparent;
+    color: #fff;
+}
+
+.Logo a:hover {
+    background-color: transparent;
+    color: #fff;
+}
+
+.Logo span {
+    font-weight: 700;
+}

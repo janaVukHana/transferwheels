@@ -1,0 +1,76 @@
+.Hero {
+    position: relative;
+    background-image: url('/picaso_02.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.Hero .intro {
+    position: absolute;
+    z-index: 3;
+    bottom: 10%;
+    left: 0;
+    padding-left: 2rem;
+}
+
+.Hero h1 {
+    font-size: 5rem;
+    color: #fff;
+    text-align: left;
+}
+
+.Hero h1 span {
+    font-size: .7em;
+}
+
+.Hero h2 {
+    font-size: 1rem;
+    color: #fff;
+    text-align: left;
+}
+
+.Hero hr {
+    width: 16px;
+    margin: 1rem;
+}
+
+.Hero .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+@media only screen and (max-width: 992px) {
+    .Hero h1 {
+        font-size: 4rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .Hero h1 {
+        font-size: 3.2rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .Hero {
+        position: relative;
+        background-image: url('/picaso_mob.jpg');
+        background-size: 100vw auto;
+        background-position:top left;
+        min-height: 100vh;
+        height: 100vh;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+
+    .Hero h1 {
+        font-size: 2rem;
+    }
+}

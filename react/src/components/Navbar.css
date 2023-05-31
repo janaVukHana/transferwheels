@@ -1,0 +1,40 @@
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: rgba(0, 0, 0, 0.7); */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 0;
+    z-index: 11;
+    width: 100%;
+    padding-top: 1rem;
+}
+
+.Navbar.scrolled {
+    position: fixed;
+    padding-top: 0;
+    padding-bottom: 0.5rem;
+    background-color: var(--blue);
+}
+
+.Navbar.scrolled a {
+    /* Styles for the scrolled state */
+    /* For example, you can reduce the height or apply other styling changes */
+    padding: 0.8rem 1.5rem;
+}
+
+/* @media Styles */
+
+/* extra small screens */
+@media only screen and (max-width: 600px) {
+  .Navbar.section {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: var(--blue);
+  }
+}
+
+

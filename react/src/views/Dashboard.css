@@ -1,0 +1,58 @@
+.Dashboard {
+    color: var(--blue);
+    background-color: var(--blue);
+    min-height: 100vh;
+    margin-top: 200px;
+}
+
+.Dashboard .dashboard-content {
+    background-color: #a7a7a7;
+    width: 90%;
+    padding: 1rem;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+  
+  .comment-item {
+    background-color: #f7f7f7;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .comment-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .comment-from {
+    font-weight: bold;
+  }
+  
+  .comment-time {
+    color: #888;
+  }
+  
+  .comment-email {
+    margin-bottom: 5px;
+  }
+  
+  .comment-message {
+    color: #333;
+  }
+  
+  p {
+    margin: 0;
+  }
+
+  .delete-button {
+    background-color: var(--red);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
