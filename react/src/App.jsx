@@ -10,6 +10,7 @@ import Footer from './components/Footer'
 import Home from './views/Home'
 import Login from './views/Login'
 import Dashboard from './views/Dashboard'
+import NotFound from './views/NotFound'
 
 function App() {
 
@@ -34,6 +35,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/login" element={<Login />} />
             <Route path="/dashboard" element={<Protected><Dashboard /></Protected>} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
 
