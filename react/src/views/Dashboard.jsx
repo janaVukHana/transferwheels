@@ -20,7 +20,6 @@ export default function Dashboard() {
     const getMessages = () => {
         axiosClient.get('/contact-us')
             .then(({ data }) => {
-                console.log(data.data);
                 setMessages(data.data);
                 setIsLoading(false);
             });
