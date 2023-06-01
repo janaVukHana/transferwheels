@@ -42,8 +42,8 @@ export default function Contact() {
                 message: 'Poruka mora biti minumum 20 karaktera'
             },
             maxLength: {
-                value: 250,
-                message: 'Maksimalno 250 karaktera.'
+                value: 1000,
+                message: 'Maksimalno 1000 karaktera.'
             }
         }
     }
@@ -154,8 +154,8 @@ export default function Contact() {
 
                 
                 {/* Laravel api errors object */}
-                {laravelErrors && Object.values(laravelErrors).map(err => {
-                        return <div className='error'>{err[0]}</div>
+                {laravelErrors && Object.values(laravelErrors).map((err, index) => {
+                        return <div style={{color: 'red'}} key={index} className='error'>{err[0]}</div>
                     })}
             </form>
         </section>

@@ -26,6 +26,7 @@ export default function Login() {
     const [sending, setSending] = useState(false)
     const [passwordVisible, setPasswordVisible] = useState(false);
 
+    console.log(laravelErrors);
     const registerOptions = {
         email: {
             required: 'Obavezno polje.',
@@ -115,7 +116,7 @@ export default function Login() {
                     <Button type="submit" fullWidth variant="contained">Login</Button>
 
                     {laravelErrors && Object.values(laravelErrors).map((err, index) => {
-                        return <div key={index} className='error'>{err[0]}</div>
+                        return <div style={{color: 'red'}} key={index} className='error'>{err[0]}</div>
                     })}
                 </form>
             </div>
