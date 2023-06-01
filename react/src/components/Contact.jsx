@@ -54,7 +54,6 @@ export default function Contact() {
 
     // onSubmit
     const handleMessage = (formData) => {
-        console.log(formData);
         
         setSending(true)
 
